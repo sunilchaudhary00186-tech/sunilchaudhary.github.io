@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    border: solid 1px black;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+.logo{
+    border: none;
+    height:100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.links{
+    border: solid 1px black;
+    border-radius: 50px;
+    height: 70%;
+    width: 60%;
+    background:linear-gradient(white);
+    margin-top:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.links ul,li,a {
+display: inline-block;   
+padding: 10px; 
+text-decoration: none;
+list-style-type: none;
+color: black;
+}
+
+.btn{
+    margin: auto;
+   border-radius: 25px;
+   padding: 2vh 2vw;
+   background-color: cyan;
+   cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: inset 1px 1px 5px;
+    background-color: greenyellow;
+}
+.links a:hover{
+     border: none;
+    padding: 2vh 2vw;
+    background-color: cyan;
+    border-radius: 25px;
+    transform: scale(1.1);
+    
+}
+.container1{
+    border: solid 1px black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+
+    
+}
+.get-touch{
+    border: solid 1px white;
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+    margin: 50px;
+    text-align: center;
+}
+.get-touch img{
+    display:inline-block;
+   height: 20px;
+   width: 20px;
+   
+}
+.get-touch h3{
+    padding: 8px;
+    color: blueviolet;
+}
+.get-touch p{
+    color: greenyellow;
+    text-align: center;
+}
+.box{
+    border: solid 1px whitesmoke;
+   height: 60px;
+   width: 400px;
+   margin-left:50px;
+   border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.get-touch h6{
+    margin-top: 10px;
+}
+#git{
+display: inline-block;
+justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+background-color: whitesmoke;
+}
+input{
+    display: block;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+input:hover{
+    transform: scale(1.1);
+    box-shadow: inset 1px 1px 5px;
+    border-color:blue;
+}
+#name{
+    margin: auto;
+}
+.btn2{
+    padding: 2vh 2vw;
+    border-radius: 20px;
+    background: blue;
+}
+.btn2:hover{
+    transform: scale(1.1);
+    box-shadow: inset 1px 1px 5px;
+    background-color: greenyellow;
+}
+textarea{
+    border: solid 1px black;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+}
